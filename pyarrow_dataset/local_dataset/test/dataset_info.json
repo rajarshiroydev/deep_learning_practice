@@ -1,0 +1,132 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 7222368,
+  "description": "",
+  "download_checksums": {
+    "/Users/rajarshiroy/Projects/deep_learning_practice/data/train.csv": {
+      "num_bytes": 4684734,
+      "checksum": null
+    },
+    "/Users/rajarshiroy/Projects/deep_learning_practice/data/test.csv": {
+      "num_bytes": 1082723,
+      "checksum": null
+    }
+  },
+  "download_size": 5767457,
+  "features": {
+    "Location": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Cross_Street": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Latitude": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Longitude": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Date_Reported": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Date_Occurred": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Time_Occurred": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Area_ID": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Area_Name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Reporting_District_no": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Part 1-2": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Modus_Operandi": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Victim_Age": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Victim_Sex": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Victim_Descent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Premise_Code": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Premise_Description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Weapon_Used_Code": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "Weapon_Description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Status": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Status_Description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Crime_Category": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 12989825,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5844230,
+      "num_examples": 20000,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1378138,
+      "num_examples": 5000,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
